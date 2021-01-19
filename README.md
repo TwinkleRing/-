@@ -9,4 +9,8 @@
 
 
 2주차 문제
+1.
+2.
+3.
+4.
 5. [적록색약](https://www.acmicpc.net/problem/10026)
