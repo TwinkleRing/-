@@ -6,3 +6,7 @@
 3. [미로 탐색](https://www.acmicpc.net/problem/2178)
 4. [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 5. [암호 만들기](https://www.acmicpc.net/problem/1759)
+
+
+2주차 문제
+5. [적록색약](https://www.acmicpc.net/problem/10026)
