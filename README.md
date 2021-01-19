@@ -9,8 +9,8 @@
 
 
 2주차 문제
-1.
-2.
-3.
-4.
+1. [DFS와 BFS](https://www.acmicpc.net/problem/1260)
+2. [단지번호붙이기](https://www.acmicpc.net/problem/2667)
+3. [유기농 배추](https://www.acmicpc.net/problem/1012)
+4. [토마토](https://www.acmicpc.net/problem/7576)
 5. [적록색약](https://www.acmicpc.net/problem/10026)
