@@ -8,7 +8,7 @@
 5. [암호 만들기](https://www.acmicpc.net/problem/1759)
 
 
-2주차 문제
+2주차 문제 (완전탐색 쉬운 문제)
 1. [DFS와 BFS](https://www.acmicpc.net/problem/1260)
 2. [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 3. [유기농 배추](https://www.acmicpc.net/problem/1012)
