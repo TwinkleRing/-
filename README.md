@@ -14,3 +14,7 @@
 3. [유기농 배추](https://www.acmicpc.net/problem/1012)
 4. [토마토](https://www.acmicpc.net/problem/7576) => 시작점이 여러 개인 경우
 5. [적록색약](https://www.acmicpc.net/problem/10026)
+
+3주차 문제 
+1. [상근이의 여행](https://www.acmicpc.net/problem/9372)
+3. [꽃길](https://www.acmicpc.net/problem/14620)
