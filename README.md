@@ -23,4 +23,4 @@
 6. [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) = 다이나믹 
 
 4주차 문제
-3. [모래성](https://www.acmicpc.net/problem/10711) = 까다로운 BFS 문제
+1. [모래성](https://www.acmicpc.net/problem/10711) = 까다로운 BFS 문제
