@@ -26,4 +26,4 @@
 1. [N-Queen](https://www.acmicpc.net/problem/9663) = 백트래킹, DFS
 2. [스타트링크](https://www.acmicpc.net/problem/5014) = BFS
 3. [모래성](https://www.acmicpc.net/problem/10711) = 까다로운 BFS 문제
-4. [테트로미노]((https://www.acmicpc.net/problem/14500) = 삼성 SW 기출 문제
+4. [테트로미노](https://www.acmicpc.net/problem/14500) = 삼성 SW 기출 문제
