@@ -30,6 +30,6 @@
 
 5주차 문제
 1. [상근이의 여행](https://www.acmicpc.net/problem/9372)
-2. [가르침](https://www.acmicpc.net/problem/1062) # 백트래킹, dfs
-3. [로또](https://www.acmicpc.net/problem/6603) # 조합
+2. [가르침](https://www.acmicpc.net/problem/1062) = 백트래킹, dfs
+3. [로또](https://www.acmicpc.net/problem/6603) = 조합
 4. [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) 
