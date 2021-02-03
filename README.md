@@ -27,3 +27,9 @@
 2. [스타트링크](https://www.acmicpc.net/problem/5014) = BFS
 3. [모래성](https://www.acmicpc.net/problem/10711) = 까다로운 BFS 문제
 4. [테트로미노](https://www.acmicpc.net/problem/14500) = 삼성 SW 기출 문제
+
+5주차 문제
+1. [상근이의 여행](https://www.acmicpc.net/problem/9372)
+2. [가르침](https://www.acmicpc.net/problem/1062) # 백트래킹, dfs
+3. [로또](https://www.acmicpc.net/problem/6603) # 조합
+4. [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) 
