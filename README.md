@@ -35,7 +35,7 @@
 4. [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) 
 
 6주차 문제
-1. [1,2,3 더하기](https://www.acmicpc.net/problem/9095) = 
+1. [1,2,3 더하기](https://www.acmicpc.net/problem/9095) = DP
 2. [경로 찾기](https://www.acmicpc.net/problem/11403) = 플로이드 워셜
 3. [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)
 4. [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)  = DFS & DP
