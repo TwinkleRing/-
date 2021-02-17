@@ -1,9 +1,17 @@
-a = int(input())
+n = int(input())
 fac = 1
+for i in range(1, n + 1):
+    fac = fac * i
+
+number = list(str(fac))
+
+
 count = 0
-for i in range(1, a+1):
-    fac = fac*i
-while(fac % 10 == 0):
-    fac = fac//10
-    count += 1
+number = number[::-1]
+for i in number:
+    if i == '0' :
+        count += 1
+    if i != '0' :
+        break
+
 print(count)

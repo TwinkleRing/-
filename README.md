@@ -20,7 +20,7 @@
 2. [미친 로봇](https://www.acmicpc.net/problem/1405) = 백트래킹,그래프 탐색, 브루트포스
 3. [꽃길](https://www.acmicpc.net/problem/14620) = 브루트포스, 백트래킹
 4. [이분 그래프](https://www.acmicpc.net/problem/1707) = 그래프 이론, 그래프 탐색
-6. [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) = 다이나믹 
+6. [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) = DP 
 
 4주차 문제
 1. [N-Queen](https://www.acmicpc.net/problem/9663) = 백트래킹, DFS
@@ -38,4 +38,4 @@
 1. [1,2,3 더하기](https://www.acmicpc.net/problem/9095) = DP
 2. [경로 찾기](https://www.acmicpc.net/problem/11403) = 플로이드 워셜
 3. [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)
-4. [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)  = DFS & DP
+4. [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)  = 그래프  & DP
