@@ -39,3 +39,7 @@
 2. [경로 찾기](https://www.acmicpc.net/problem/11403) = 플로이드 워셜
 3. [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)
 4. [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)  = 그래프  & DP
+
+7주차 문제
+1. [시험 감독](https://www.acmicpc.net/problem/13458) = Greedy
+2. [테트로미노](https://www.acmicpc.net/problem/14500) = 구현
