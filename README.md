@@ -43,3 +43,5 @@
 7주차 문제
 1. [시험 감독](https://www.acmicpc.net/problem/13458) = Greedy
 2. [테트로미노](https://www.acmicpc.net/problem/14500) = 구현
+3. [주사위 굴리기](https://www.acmicpc.net/problem/14499) = 구현, 시뮬레이션
+4. [뱀](https://www.acmicpc.net/problem/3190) = 구현, 시뮬레이션
