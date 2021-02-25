@@ -48,3 +48,4 @@
 
 8주차 문제
 1. [로봇청소기](https://www.acmicpc.net/problem/14503) = 구현, 시뮬레이션
+2. [연구소](https://www.acmicpc.net/problem/14502) = 백트래킹, BFS
