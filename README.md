@@ -52,3 +52,6 @@
 3. [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) = 백트래킹
 4. [스타트와 링크](https://www.acmicpc.net/problem/14889) = 조합, 브루트포스
 5. [퇴사](https://www.acmicpc.net/problem/14501) = DP
+
+9주차 문제
+1. [톱니 바퀴](https://www.acmicpc.net/problem/14891) 
