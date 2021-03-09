@@ -1,8 +1,8 @@
+# 치킨 배달 
+
 from itertools import combinations as cb
 import sys
 input = sys.stdin.readline
-
-# 치킨 
 
 n, m = map(int,input().split())
 array = [list(map(int,input().split())) for _ in range(n)]
