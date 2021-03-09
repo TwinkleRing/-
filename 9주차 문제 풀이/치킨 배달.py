@@ -37,4 +37,3 @@ for i in candidates :
 
 print(answer)
 
-
