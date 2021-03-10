@@ -1,41 +1,50 @@
 import sys
 from collections import deque
 
+s = []
+for _ in range(4) :
+    s.append(deque(list(input())))
 
-#왼쪽 톱니바퀴 확인
-def check_left(start, dirs): 
-    if start < 1 or gears[start][2] == gears[start + 1][6]:
+k = int(input())
+R = [list(map(int,input().split())) for _ in range(k)]
+
+def check_right(num, dir) :
+    if num > 3 :
+        return 
+    
+    if s[num][6] != s[num-1][2] :
+        check_right(num + 1, -dir)
+        s[num].rotate(dir)
+
+
+def check_left(num ,dir) :
+    if num < 0 :
         return 
 
-    if gears[start][2] != gears[start + 1][6]:
-        check_left(start - 1, -dirs)
-        gears[start].rotate(dirs)
-
-#오른쪽 톱니바퀴 확인
-def check_right(start, dirs): 
-    if start > 4 or gears[start-1][2] == gears[start][6]:
-        return
-
-    if gears[start][6] != gears[start-1][2] :
-        check_right(start + 1, -dirs)
-        gears[start].rotate(dirs)
+    if s[num][2] != s[num+1][6] :
+        check_left(num - 1, -dir)
+        s[num].rotate(dir)
 
 
-gears = {}
-for i in range(1, 5) :
-    gears[i] = deque(list(map(int, input())))
+for i in range(k) :
+    num = R[i][0] - 1
+    direction = R[i][1]
 
-n = int(input())
-for _ in range(n):
-    num, dirs = map(int,input().split())
-    
-    # 기준 톱니바퀴가 주어졌을 때, 오른쪽 / 왼쪽이 회전이 가능한지를 각각 확인하고 회전시킨다.
-    check_left(num - 1, -dirs)
-    check_right(num + 1, -dirs)
-    # 기준 톱니바퀴를 회전시킨다.
-    gears[num].rotate(dirs)
+    check_right(num + 1, -direction)
+    check_left(num - 1, -direction)
 
-res = 0
-for i in range(4) :
-    res += (2**i) * gears[i + 1][0] 
-print(res)
+    s[num].rotate(direction)
+
+
+answer = 0
+
+if s[0][0] == "1" :
+    answer += 1
+if s[1][0] == '1' :
+    answer += 2
+if s[2][0] == '1' :
+    answer += 4
+if s[3][0] == '1' :
+    answer += 8
+
+print(answer)
