@@ -63,3 +63,4 @@
 1. [인구 이동](https://www.acmicpc.net/problem/16234) = 그래프 탐색, 구현, 시뮬레이션, BFS
 2. [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) = 빡구현, 시뮬레이션
 3. [아기 상어](https://www.acmicpc.net/problem/16236) = 구현, 시뮬레이션, BFS
+4. [나무 재테크](https://www.acmicpc.net/problem/16235) = 구현, 시뮬레이션
