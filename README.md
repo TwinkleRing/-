@@ -64,3 +64,4 @@
 2. [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) = 빡구현, 시뮬레이션
 3. [아기 상어](https://www.acmicpc.net/problem/16236) = 구현, 시뮬레이션, BFS
 4. [나무 재테크](https://www.acmicpc.net/problem/16235) = 구현, 시뮬레이션
+5. [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) = 빡구현, 시뮬레이션
