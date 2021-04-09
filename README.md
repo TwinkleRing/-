@@ -65,3 +65,6 @@
 3. [아기 상어](https://www.acmicpc.net/problem/16236) = 구현, 시뮬레이션, BFS
 4. [나무 재테크](https://www.acmicpc.net/problem/16235) = 구현, 시뮬레이션
 5. [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) = 빡구현, 시뮬레이션
+
+11주차 문제
+1. [연구소 3](https://www.acmicpc.net/problem/17142) = 그래프 탐색, BFS, 브루트포스
