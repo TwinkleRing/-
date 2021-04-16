@@ -74,3 +74,7 @@
 
 13주차 문제
 1. [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) = 구현, 시뮬레이션
+
+
+19주차 문제
+1. [불!](https://www.acmicpc.net/problem/4179) = 구현, 시뮬레이션, 그래프 탐색, BFS
