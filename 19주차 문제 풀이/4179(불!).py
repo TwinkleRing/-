@@ -1,63 +1,62 @@
-from collections import deque
+# 불!(4179)
 
-dx = [1, 0, -1, 0]
-dy = [0, -1, 0, 1]
+from collections import deque
+import sys
+
+dx = [1,0,-1,0]
+dy = [0,1,0,-1]
 
 def fire() :
     qlen = len(fq)
-    while qlen :
+    for i in range(qlen) :
         x, y = fq.popleft()
-        for i in range(4) :
-            nx = x + dx[i]
-            ny = y + dy[i]
+        for k in range(4) :
+            nx = x + dx[k]
+            ny = y + dy[k]
             if 0 <= nx < r and 0 <= ny < c and maze[nx][ny] == "." :
-                maze[nx][ny] = "F"
-                fq.append([nx,ny])
-        qlen -= 1
+                maze[nx][ny] = "F" 
+                fq.append([nx, ny])
 
 
-
-def bfs(x,y) :
-    q.append([x,y])
-    check[x][y] = 1
+def move(x, y) :
+    q.append((x, y))
+    chk[x][y] = 1
     while q :
-        qlen = len(q)
-        while qlen :
+        qlen = len(q) 
+        for i in range(qlen) :
             x, y = q.popleft()
-            for i in range(4) :
-                nx = x + dx[i]
-                ny = y + dy[i]
-                if 0 <= nx < r and 0 <= ny < c : 
-                    if check[nx][ny] == 0 and maze[nx][ny] == "." :
-                        check[nx][ny] = check[x][y] + 1
-                        q.append([nx,ny])
+            for k in range(4) :
+                nx = x + dx[k]
+                ny = y + dy[k]
+                if 0 <= nx < r and 0 <= ny < c :
+                    if chk[nx][ny] == 0 and maze[nx][ny] == "." :
+                        chk[nx][ny] = chk[x][y] + 1
+                        q.append((nx, ny))
                 elif nx < 0 or ny < 0 or nx >= r or ny >= c :
-                    print(check[x][y])
+                    print(chk[x][y])
                     return
-            qlen -= 1
+            
         fire()
-
     print("IMPOSSIBLE")
     return
 
-    
-            
 
-r,c = map(int,input().split())
+
+r, c = map(int,input().split())
 
 maze = [list(input()) for _ in range(r)]
-check = [[0]*c for _ in range(r)]
+chk = [[0] * c for _ in range(r)]
 
-q , fq = deque(), deque()
+q, fq = deque(), deque()
+
 
 for i in range(r) :
     for j in range(c) :
         if maze[i][j] == "J" :
-            x1,y1 = i,j
+            sx, sy = i, j
             maze[i][j] = "."
         elif maze[i][j] == "F" :
-            fq.append([i,j])
+            fq.append([i, j])
 
 fire()
-bfs(x1,y1)
-
+move(sx, sy)
