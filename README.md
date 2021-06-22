@@ -77,6 +77,7 @@
 
 13주차 문제
 1. [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) = 구현, 시뮬레이션
+2. [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) = 구현, 시뮬레이션
 
 14주차 문제
 1. [파이프 옮기기1](https://www.acmicpc.net/problem/17070) = 그래프 이론, 그래프 탐색, DP
