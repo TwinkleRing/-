@@ -1,4 +1,4 @@
-# 마법사 상어와 
+# 마법사 상어와 파이어스톰
 
 import sys
 from copy import deepcopy
