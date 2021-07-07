@@ -86,3 +86,9 @@
 
 19주차 문제
 1. [불!](https://www.acmicpc.net/problem/4179) = 구현, 시뮬레이션, 그래프 탐색, BFS
+
+
+
+2021 상반기 삼성 기출 문제
+1. [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) = 구현, 시뮬레이션
+ 
